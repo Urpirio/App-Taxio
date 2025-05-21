@@ -7,7 +7,7 @@ import { DataFirstScreen } from "../Data/DataFirstScreen";
 
 export default function index() {
 
-    const router = useRouter()
+    const router = useRouter();
     const [Loading,setLoading] = useState(false);
     const [LocationScreen,setLocationScreen] = useState(0);
 

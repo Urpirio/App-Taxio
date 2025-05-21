@@ -20,7 +20,8 @@
         "foregroundImage": "./assets/IconLogo/LogoApp.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.urpiriodev.DI2025App"
     },
     "web": {
       "favicon": "./assets/IconLogo/LogoApp.png"
@@ -28,6 +29,12 @@
     "plugins": [
       "expo-router",
       "expo-asset"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "cedeb639-20a5-43d9-9b8d-51c2a135c67a"
+      }
+    }
   }
 }

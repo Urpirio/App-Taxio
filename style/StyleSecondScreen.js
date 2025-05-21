@@ -1,0 +1,62 @@
+import { StyleSheet } from "react-native";
+
+export const StyleSecondScreen = StyleSheet.create({
+    MainContainer:{
+        flex:1,justifyContent:'space-between'
+    },
+    Section1:{
+        justifyContent:'flex-end',
+        height:'60%'
+    },
+    ImgSection1:{
+        height:300,width:'100%'
+    },
+    TextSection1:{
+        fontSize:35,
+        textAlign:'center',
+        fontWeight:'800',
+    },
+    Section2:{
+        flexDirection:'row',
+        gap:10,
+        justifyContent:'center'
+    },
+    Point1:{
+        height:10,
+        width:10,
+        borderWidth:1,
+        borderRadius:20,
+        backgroundColor:'#d6d6d6'
+    },
+    Point2:{
+        height:10,
+        width:30,
+        borderWidth:1,
+        borderRadius:20,
+        backgroundColor:'#ffc300'
+    },
+    Point3:{
+        height:10,
+        width:10,
+        borderWidth:1,
+        borderRadius:20,
+        backgroundColor:'#d6d6d6'
+    },
+    Section3:{
+        justifyContent:'center',
+        alignItems:'center',
+        padding:20
+    },
+    BtnNext:{
+        width:'100%',
+        justifyContent:'center',
+        alignItems:'center',
+        paddingVertical:12,
+        borderRadius:25,
+        backgroundColor:'#ffc300'
+    },
+    TextBtnNext:{
+        fontSize: 16,
+        fontWeight:'600'
+    }
+})
